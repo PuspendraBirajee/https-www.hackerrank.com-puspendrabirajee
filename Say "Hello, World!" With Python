@@ -1,0 +1,2 @@
+pushu="Hello, World!"
+print(pushu)
