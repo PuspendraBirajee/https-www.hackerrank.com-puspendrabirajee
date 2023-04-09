@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+floor=a//b
+float1=a/b
+print(floor)
+print(float1)
