@@ -1,0 +1,15 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a = set(input().split())
+cnt = 0
+val = 0
+b=int(input())
+for i in range(b):
+    c=set(input().split())
+    if a.issuperset(c):
+        cnt += 1
+    else:
+        val += 1
+if val != 0:
+    print("False")
+else:
+    print("True")
